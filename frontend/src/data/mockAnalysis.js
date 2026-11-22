@@ -1,0 +1,68 @@
+const en = {
+  id: 'national-student-scholarship',
+  name: 'National Student Scholarship Notification',
+  category: 'Education',
+  status: 'Demo Analysis',
+  title: 'National Student Scholarship Notification',
+  documentType: 'Government scholarship notification',
+  description: 'A fictional scholarship notice for students seeking financial support for higher education.',
+  purpose: 'Help eligible students pay for tuition, study materials and educational expenses.',
+  explanation: 'This notification describes a student scholarship. It may cover tuition fees and other approved education costs. Before applying, verify your eligibility, gather the required documents and submit your application through the official application channel before the stated deadline.',
+  eligibility: ['Applicants must be enrolled in an accredited college or university.', 'Annual family income must not exceed the limit stated in the official notice.', 'Applicant must have achieved at least 60% marks in the previous examination.'],
+  dates: ['Application opens: 15 August 2026', 'Application deadline: 30 September 2026', 'Document verification: October 2026'],
+  amounts: ['Tuition support: up to ₹40,000 per year', 'Study allowance: ₹8,000 per year', 'Total: up to ₹48,000 per year'],
+  documents: ['Recent passport-size photograph', 'Identity proof', 'Income certificate', 'Previous examination marksheet', 'Admission or enrollment proof', 'Bank account details'],
+  conditions: ['The award is non-transferable.', 'Renewal may require satisfactory academic performance.', 'All eligibility details must be checked against the original official notification.'],
+  checklist: [
+    { id: 1, text: 'Read the official eligibility criteria', done: true },
+    { id: 2, text: 'Collect identity, income and academic documents', done: false },
+    { id: 3, text: 'Confirm the application deadline', done: true },
+    { id: 4, text: 'Complete the official application form', done: false },
+    { id: 5, text: 'Verify the submitted bank account details', done: false },
+  ],
+  takeaways: [
+    'The scholarship is intended to support higher education expenses.',
+    'The fictional application deadline is 30 September 2026.',
+    'Applicants should confirm the family income and academic mark requirements.',
+    'Income, identity and enrollment documents are essential.',
+    'Always use the original official notice for the final decision.',
+  ],
+}
+const hi = {
+  id:'national-student-scholarship',
+  name:'राष्ट्रीय छात्रवृत्ति सूचना',
+  category:'शिक्षा',
+  status:'डेमो विश्लेषण',
+  title:'राष्ट्रीय छात्रवृत्ति सूचना',
+  documentType:'सरकारी छात्रवृत्ति सूचना',
+  description:'उच्च शिक्षा के लिए आर्थिक सहायता चाहने वाले छात्रों के लिए एक काल्पनिक छात्रवृत्ति सूचना।',
+  purpose:'पात्र छात्रों को ट्यूशन, अध्ययन सामग्री और शैक्षिक खर्च में सहायता देना।',
+  explanation:'यह सूचना एक छात्रवृत्ति के बारे में है। यह ट्यूशन फीस और अन्य स्वीकृत शैक्षणिक खर्चों में मदद कर सकती है। आवेदन से पहले अपनी पात्रता जाँचें, आवश्यक दस्तावेज़ जुटाएँ और तय आखिरी तारीख से पहले आधिकारिक माध्यम से आवेदन करें।',
+  eligibility:['आवेदक मान्यता प्राप्त कॉलेज या विश्वविद्यालय में पंजीकृत होना चाहिए।','वार्षिक परिवार आय आधिकारिक सूचना में बताई गई सीमा से अधिक नहीं होनी चाहिए।','पिछली परीक्षा में कम से कम 60% अंक होने चाहिए।'],
+  dates:['आवेदन शुरू: 15 अगस्त 2026','आवेदन की आखिरी तारीख: 30 सितंबर 2026','दस्तावेज़ सत्यापन: अक्टूबर 2026'],
+  amounts:['ट्यूशन सहायता: प्रति वर्ष ₹40,000 तक','अध्ययन भत्ता: प्रति वर्ष ₹8,000','कुल: प्रति वर्ष ₹48,000 तक'],
+  documents:['हाल का पासपोर्ट आकार का फोटो','पहचान प्रमाण','आय प्रमाण पत्र','पिछली परीक्षा की अंक तालिका','प्रवेश या पंजीकरण प्रमाण','बैंक खाते का विवरण'],
+  conditions:['यह सहायता हस्तांतरित नहीं होगी।','नवीनीकरण के लिए संतोषजनक शैक्षणिक प्रदर्शन आवश्यक हो सकता है।','सभी पात्रता विवरण मूल आधिकारिक सूचना से जाँचें।'],
+  checklist:[{id:1,text:'आधिकारिक पात्रता शर्तें पढ़ें',done:true},{id:2,text:'पहचान, आय और शैक्षणिक दस्तावेज़ जुटाएँ',done:false},{id:3,text:'आवेदन की आखिरी तारीख पुष्टि करें',done:true},{id:4,text:'आधिकारिक आवेदन फॉर्म भरें',done:false},{id:5,text:'बैंक खाते का विवरण जाँचें',done:false}],
+  takeaways:['यह छात्रवृत्ति उच्च शिक्षा के खर्च में सहायता के लिए है।','काल्पनिक आवेदन की आखिरी तारीख 30 सितंबर 2026 है।','आवेदकों को परिवार आय और अंक की शर्तें पुष्टि करनी चाहिए।','आय, पहचान और पंजीकरण दस्तावेज़ आवश्यक हैं।','अंतिम निर्णय के लिए हमेशा मूल आधिकारिक सूचना देखें।']
+}
+const pa = {
+  id:'national-student-scholarship',
+  name:'ਰਾਸ਼ਟਰੀ ਵਿਦਿਆਰਥੀ ਸਕਾਲਰਸ਼ਿਪ ਨੋਟਿਸ',
+  category:'ਸਿੱਖਿਆ',
+  status:'ਡੈਮੋ ਵਿਸ਼ਲੇਸ਼ਣ',
+  title:'ਰਾਸ਼ਟਰੀ ਵਿਦਿਆਰਥੀ ਸਕਾਲਰਸ਼ਿਪ ਨੋਟਿਸ',
+  documentType:'ਸਰਕਾਰੀ ਸਕਾਲਰਸ਼ਿਪ ਨੋਟਿਸ',
+  description:'ਉੱਚ ਸਿੱਖਿਆ ਲਈ ਵਿੱਤੀ ਸਹਾਇਤਾ ਚਾਹੁੰਦੇ ਵਿਦਿਆਰਥੀਆਂ ਲਈ ਕਲਪਨਿਕ ਸਕਾਲਰਸ਼ਿਪ ਨੋਟਿਸ।',
+  purpose:'ਯੋਗ ਵਿਦਿਆਰਥੀਆਂ ਨੂੰ ਟ्यूਸ਼ਨ, ਪੜ੍ਹਾਈ ਦੀ ਸਮੱਗਰੀ ਅਤੇ ਸਿੱਖਿਆ ਦੇ ਖਰਚਿਆਂ ਵਿੱਚ ਮਦਦ ਕਰਨਾ।',
+  explanation:'ਇਹ ਨੋਟਿਸ ਇੱਕ ਸਕਾਲਰਸ਼ਿਪ ਬਾਰੇ ਹੈ। ਇਹ ਟ्यूਸ਼ਨ ਫੀਸ ਅਤੇ ਹੋਰ ਮਨਜ਼ੂਰ ਸਿੱਖਿਆ ਖਰਚਿਆਂ ਵਿੱਚ ਮਦਦ ਕਰ ਸਕਦੀ ਹੈ। ਅਰਜ਼ੀ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਯੋਗਤਾ ਜਾਂਚੋ, ਲੋੜੀਂਦੇ ਦਸਤਾਵੇਜ਼ ਇਕੱਤਰ ਕਰੋ ਅਤੇ ਨਿਸ਼ਚਿਤ ਆਖਰੀ ਤਰੀਕ ਤੋਂ ਪਹਿਲਾਂ ਸਰਕਾਰੀ ਪਹੁੰਚ ਰਾਹੀਂ ਅਰਜ਼ੀ ਦਿਓ।',
+  eligibility:['ਅਰਜ਼ੀਦਾਰ ਮਾਨਤਾ ਪ੍ਰਾਪਤ ਕਾਲਜ ਜਾਂ ਯੂਨੀਵਰਸਿਟੀ ਵਿੱਚ ਦਾਖਲ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ।','ਸਾਲਾਨਾ ਪਰਿਵਾਰਕ ਆਮਦਨੀ ਸਰਕਾਰੀ ਨੋਟਿਸ ਵਿੱਚ ਦਿੱਤੀ ਹੱਦ ਤੋਂ ਵੱਧ ਨਹੀਂ ਹੋਣੀ ਚਾਹੀਦੀ।','ਪਿਛਲੀ ਪਰੀਖਿਆ ਵਿੱਚ ਘੱਟੋ-ਘੱਟ 60% ਅੰਕ ਹੋਣੇ ਚਾਹੀਦੇ ਹਨ।'],
+  dates:['ਅਰਜ਼ੀ ਸ਼ੁਰੂ: 15 ਅਗਸਤ 2026','ਅਰਜ਼ੀ ਦੀ ਆਖਰੀ ਤਰੀਕ: 30 ਸਤੰਬਰ 2026','ਦਸਤਾਵੇਜ਼ ਤਸਦੀਕ: ਅਕਤੂਬਰ 2026'],
+  amounts:['ਟ्यूਸ਼ਨ ਸਹਾਇਤਾ: ਪ੍ਰਤੀ ਸਾਲ ₹40,000 ਤੱਕ','ਪੜ੍ਹਾਈ ਭੱਤਾ: ਪ੍ਰਤੀ ਸਾਲ ₹8,000','ਕੁੱਲ: ਪ੍ਰਤੀ ਸਾਲ ₹48,000 ਤੱਕ'],
+  documents:['ਹਾਲ ਦਾ ਪਾਸਪੋਰਟ ਆਕਾਰ ਦੀ ਤਸਵੀਰ','ਪਛਾਣ ਸਬੂਤ','ਆਮਦਨੀ ਸਰਟੀਫਿਕੇਟ','ਪਿਛਲੀ ਪਰੀਖਿਆ ਦੀ ਮਾਰਕਸ਼ੀਟ','ਦਾਖਲਾ ਜਾਂ ਦਾਖਲੇ ਦਾ ਸਬੂਤ','ਬੈਂਕ ਖਾਤੇ ਦੀ ਜਾਣਕਾਰੀ'],
+  conditions:['ਇਹ ਸਹਾਇਤਾ ਦੂਜੇ ਨੂੰ ਨਹੀਂ ਦਿੱਤੀ ਜਾ ਸਕਦੀ।','ਨਵੀਨੀਕਰਨ ਲਈ ਚੰਗਾ ਅਕਾਦਮਿਕ ਪ੍ਰਦਰਸ਼ਨ ਲੋੜੀਂਦਾ ਹੋ ਸਕਦਾ ਹੈ।','ਸਾਰੀ ਯੋਗਤਾ ਅਸਲ ਸਰਕਾਰੀ ਨੋਟਿਸ ਨਾਲ ਪੱਕੀ ਕਰੋ।'],
+  checklist:[{id:1,text:'ਸਰਕਾਰੀ ਯੋਗਤਾ ਸ਼ਰਤਾਂ ਪੜ੍ਹੋ',done:true},{id:2,text:'ਪਛਾਣ, ਆਮਦਨੀ ਅਤੇ ਅਕਾਦਮਿਕ ਦਸਤਾਵੇਜ਼ ਇਕੱਤਰ ਕਰੋ',done:false},{id:3,text:'ਅਰਜ਼ੀ ਦੀ ਆਖਰੀ ਤਰੀਕ ਪੁਸ਼ਟੀ ਕਰੋ',done:true},{id:4,text:'ਸਰਕਾਰੀ ਅਰਜ਼ੀ ਫਾਰਮ ਪੂਰਾ ਕਰੋ',done:false},{id:5,text:'ਬੈਂਕ ਖਾਤੇ ਦੀ ਜਾਣਕਾਰੀ ਜਾਂਚੋ',done:false}],
+  takeaways:['ਇਹ ਸਕਾਲਰਸ਼ਿਪ ਉੱਚ ਸਿੱਖਿਆ ਦੇ ਖਰਚਿਆਂ ਲਈ ਹੈ।','ਕਲਪਨਿਕ ਅਰਜ਼ੀ ਦੀ ਆਖਰੀ ਤਰੀਕ 30 ਸਤੰਬਰ 2026 ਹੈ।','ਅਰਜ਼ੀਦਾਰ ਪਰਿਵਾਰਕ ਆਮਦਨੀ ਅਤੇ ਅੰਕਾਂ ਦੀਆਂ ਸ਼ਰਤਾਂ ਪੁਸ਼ਟੀ ਕਰਨ।','ਆਮਦਨੀ, ਪਛਾਣ ਅਤੇ ਦਾਖਲਾ ਦਸਤਾਵੇਜ਼ ਲੋੜੀਂਦੇ ਹਨ।','ਅੰਤਮ ਫੈਸਲੇ ਲਈ ਹਮੇਸ਼ਾ ਅਸਲ ਸਰਕਾਰੀ ਨੋਟਿਸ ਵਰਤੋ।']
+}
+export const mockAnalysis = en
+export const multilingualMockAnalysis = { en, hi, pa }
